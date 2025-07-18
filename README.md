@@ -72,6 +72,24 @@ Steam이나 Blizzard처럼 실물 없이도 게임을 구매하고, 코드를 �
 
 ## 📁 프로젝트 구조
 
+com.example.world
+├── admin           # 관리자 기능 (매출, 회원, 주문 등 관리)
+├── calendar        # 캘린더 일정 등록 및 조회
+├── cash            # 매출 로그 기록
+├── email           # 이메일 인증 설정 및 발송
+├── file            # 파일 업로드 관련 기능
+├── mypage          # 마이페이지 전용 기능 (주문, 찜 등)
+├── notice          # 공지사항 관리 기능
+├── order           # 주문 처리 로직
+├── product         # 상품 등록, 조회, 수정 등
+├── qna             # 사용자 문의
+├── qnaAnswer       # 관리자 답변
+├── review          # 사용자 리뷰
+├── security        # Spring Security 설정
+├── user            # 공통 유틸, 메인컨트롤러 등
+└── resources
+    └── static
+        └── layout  # CSS 및 JS 리소스
 
 ---
 
